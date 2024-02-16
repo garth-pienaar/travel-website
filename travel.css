@@ -1,0 +1,23 @@
+.form-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.step {
+  display: none;
+}
+
+.step.active {
+  display: block;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
