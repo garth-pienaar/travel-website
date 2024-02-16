@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Travel Website Form</title>
+    <meta name="description" content="This is a part of the technical test which requires a responsive page accepting data. We never repeat the title keywords in the description">
+    <!-- Tools and services used for this example were kept as simple as possible raw HTML + JS + CSS that can be run without an installation and created in a basic text editor. Illustrated in github pages -->
+    
+    <!-- Google Tag Manager -->
+     <script>
+      window.dataLayer = window.dataLayer || [];
+    </script>
+    
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-XXXXX');
+  </script>
+    <!-- End Google Tag Manager -->
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXX"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <h1>Travel Website Form</h1>
+      <div class="form-container">
+        <form id="booking-form">
+          <div class="step">
+            <h2>Step 1: Personal Details</h2>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <button type="button" class="next-btn">Next</button>
+          </div>
+          <div class="step">
+            <h2>Step 2: Destination & Dates</h2>
+            <input type="text" placeholder="Destination" required>
+            <input type="date" placeholder="Start Date" required>
+            <input type="date" placeholder="End Date" required>
+            <button type="button" class="prev-btn">Previous</button>
+            <button type="button" class="next-btn">Next</button>
+          </div>
+          <div class="step">
+            <h2>Step 3: Preferences</h2>
+            <textarea placeholder="Any special preferences"></textarea>
+            <button type="button" class="prev-btn">Previous</button>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+  </body>
+</html>
