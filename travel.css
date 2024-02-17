@@ -17,10 +17,6 @@ textarea {
   width: 100%;
   margin-bottom: 10px;
 }
-
-button {
-  margin-top: 10px;
-}
 */
 body {
     width: 100%;
@@ -30,6 +26,18 @@ body {
     color: #f5f6f7;
     font-family: Tahoma;
     font-size: 16px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.step {
+  display: none;
+}
+
+.step.active {
+  display: block;
 }
 
 h1, p {
