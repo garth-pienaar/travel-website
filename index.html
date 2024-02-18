@@ -56,53 +56,15 @@
            </div>
       <div class="step">  
 
-        <fieldset>
-            <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="profile-picture" /></label>
-            <label for="age">Input your age (years): <input id="age" type="number" name="age" min="13" max="120" /></label>
-            <label for="referrer">How did you hear about us?
-                <select id="referrer" name="referrer">
-                    <option value="">(select one)</option>
-                    <option value="1">freeCodeCamp News</option>
-                    <option value="2">freeCodeCamp YouTube Channel</option>
-                    <option value="3">freeCodeCamp Forum</option>
-                    <option value="4">Other</option>
-              </select>
-            </label>
-
-            <label for="bio">Provide a bio:
-                <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
-            </label>
+        <fieldset>          
+            <label for="destination">Enter Destination:<input type="text" placeholder="Destination" required></label>
+            <label for="start-date">Enter Start Date:<input type="text" placeholder="Start Date" required></label>
+            <label for="end-date">Enter End Date:<input type="text" placeholder="End Date" required></label>
+            <label for="bio">Any special preferences: <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I would like to fly business class..."></textarea></label>
           <button type="button" class="prev-btn">Previous</button>
-            <button type="button" class="next-btn">Next</button>
+          <button type="submit">Submit</button>
         </fieldset>
-                   </div>
-
+        </div>
     </form>
-    <!--
-      <div class="form-container">
-        <form id="booking-form">
-          <div class="step">
-            <h2>Step 1: Personal Details</h2>
-            <input type="text" placeholder="Name" required>
-            <input type="email" placeholder="Email" required>
-            <button type="button" class="next-btn">Next</button>
-          </div>
-          <div class="step">
-            <h2>Step 2: Destination & Dates</h2>
-            <input type="text" placeholder="Destination" required>
-            <input type="date" placeholder="Start Date" required>
-            <input type="date" placeholder="End Date" required>
-            <button type="button" class="prev-btn">Previous</button>
-            <button type="button" class="next-btn">Next</button>
-          </div>
-          <div class="step">
-            <h2>Step 3: Preferences</h2>
-            <textarea placeholder="Any special preferences"></textarea>
-            <button type="button" class="prev-btn">Previous</button>
-            <button type="submit">Submit</button>
-          </div>
-        </form>
-      </div>
-    -->
   </body>
 </html>
